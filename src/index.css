@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'PT Serif', sans-serif;
+}
+
+:root {
+  /* PRIMARY COLORS */
+  --fweb-color-1: #fdede3;
+  --fweb-color-2: #37190c;
+
+  /* BACKGROUNG COLORS */
+  --fweb-primary-bg: #f8c096;
+  --fweb-secondary-bg: rgb(234, 234, 234);
+
+  /* BORDER RADIUS */
+  --fweb-primary-br: 7px;
+  --fweb-secondary-br: 2px;
+
+  /* SPACINGS */
+  --fweb-margin-xs: 5px;
+  --fweb-margin-s: 10px;
+  --fweb-margin-m: 20px;
+  --fweb-margin-l: 30px;
+  --fweb-margin-xl: 40px;
+
+  --fweb-padding-xs: 5px;
+  --fweb-padding-s: 10px;
+  --fweb-padding-m: 20px;
+  --fweb-padding-l: 30px;
+  --fweb-padding-xl: 50px;
+
+  --fweb-gap-xs: 5px;
+  --fweb-gap-s: 10px;
+  --fweb-gap-m: 20px;
+  --fweb-gap-l: 30px;
+  --fweb-gap-xl: 40px;
+}
+
+body {
+  background-color: var(--fweb-color-1);
+}
+
+p,
+span,
+label,
+button,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--fweb-color-2);
+}

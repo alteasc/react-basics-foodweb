@@ -1,0 +1,41 @@
+.ingredient-info > h2 {
+  padding: var(--fweb-padding-m);
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  gap: var(--fweb-gap-xs);
+  margin: var(--fweb-margin-s);
+}
+
+input {
+  width: 45%;
+  height: 40px;
+  border-radius: var(--fweb-primary-br);
+}
+
+button {
+  cursor: pointer;
+  width: 15%;
+  height: 40px;
+  border-radius: var(--fweb-primary-br);
+}
+
+.search-examples {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--fweb-gap-s);
+  padding: var(--fweb-padding-l);
+}
+
+.search-examples > ul {
+  display: flex;
+  gap: var(--fweb-gap-l);
+}
+
+.search-examples > ul > li {
+  border-bottom: 2px var(--fweb-color-2) dotted;
+}
